@@ -1,0 +1,27 @@
+{
+  "name": "@react-server-tutorials/todo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "react-server ./src/index.tsx",
+    "build": "react-server build ./src/index.tsx",
+    "start": "react-server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "polystore": "^0.15.12",
+    "uuid": "^11.0.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}

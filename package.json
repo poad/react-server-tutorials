@@ -1,0 +1,48 @@
+{
+  "name": "react-router-cloudfront-spa-example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "pnpm -r --if-present lint",
+    "lint-fix": "pnpm -r --if-present lint-fix"
+  },
+  "dependencies": {
+    "@lazarv/react-server": "0.0.0-experimental-3c4e6bc-20250119-0753e99e",
+    "react": "0.0.0-experimental-204a551e-20240926",
+    "react-dom": "0.0.0-experimental-204a551e-20240926"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.5",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.18.0",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "@stylistic/eslint-plugin-js": "^2.13.0",
+    "@stylistic/eslint-plugin-jsx": "^2.13.0",
+    "@stylistic/eslint-plugin-plus": "^2.13.0",
+    "@stylistic/eslint-plugin-ts": "^2.13.0",
+    "@types/node": "^22.10.7",
+    "eslint": "^9.18.0",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "pnpm": "^10.0.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "cookie": ">=0.7.0"
+    }
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+}
