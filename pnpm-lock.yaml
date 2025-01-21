@@ -15,11 +15,11 @@ importers:
         specifier: 0.0.0-experimental-3c4e6bc-20250119-0753e99e
         version: 0.0.0-experimental-3c4e6bc-20250119-0753e99e(@types/node@22.10.7)(rollup@4.31.0)(terser@5.37.0)(webpack@5.97.1)
       react:
-        specifier: 0.0.0-experimental-204a551e-20240926
-        version: 0.0.0-experimental-204a551e-20240926
+        specifier: 19.0.0
+        version: 19.0.0
       react-dom:
-        specifier: 0.0.0-experimental-204a551e-20240926
-        version: 0.0.0-experimental-204a551e-20240926(react@0.0.0-experimental-204a551e-20240926)
+        specifier: 19.0.0
+        version: 19.0.0(react@19.0.0)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -2548,6 +2548,11 @@ packages:
     peerDependencies:
       react: 0.0.0-experimental-204a551e-20240926
 
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
+    peerDependencies:
+      react: ^19.0.0
+
   react-is@0.0.0-experimental-204a551e-20240926:
     resolution: {integrity: sha512-arwEH+4YWGjpdXJ3mFUMasax0QkUaMg4rF6j0iUHK99AC9jz3aTGuwDqcojo4mGZEVLOYg0aWt/gVfoxjC57kQ==}
 
@@ -2568,6 +2573,10 @@ packages:
 
   react@0.0.0-experimental-204a551e-20240926:
     resolution: {integrity: sha512-t/+tjZsV80YVrED1A+Rh501TZu8/ob5JQDd3S4+iXbq73kPBIgUA8diayiQ49OesYiMe33l1WY5QgioGl67oJg==}
+    engines: {node: '>=0.10.0'}
+
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
   readable-stream@4.7.0:
@@ -2685,6 +2694,9 @@ packages:
 
   scheduler@0.0.0-experimental-204a551e-20240926:
     resolution: {integrity: sha512-Kb9Cyp+rVp8hwT7SCzmf6FAQyAuHqXgrXmfH8pGu6XHLCyHGjaLw3z3aMi68VbVmaeJSyvpWZd1nTBGsVkUBJA==}
+
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
   schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
@@ -5978,6 +5990,11 @@ snapshots:
       react: 0.0.0-experimental-204a551e-20240926
       scheduler: 0.0.0-experimental-204a551e-20240926
 
+  react-dom@19.0.0(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      scheduler: 0.25.0
+
   react-is@0.0.0-experimental-204a551e-20240926: {}
 
   react-property@2.0.2: {}
@@ -5994,6 +6011,8 @@ snapshots:
       webpack-sources: 3.2.3
 
   react@0.0.0-experimental-204a551e-20240926: {}
+
+  react@19.0.0: {}
 
   readable-stream@4.7.0:
     dependencies:
@@ -6192,6 +6211,8 @@ snapshots:
       '@parcel/watcher': 2.5.0
 
   scheduler@0.0.0-experimental-204a551e-20240926: {}
+
+  scheduler@0.25.0: {}
 
   schema-utils@3.3.0:
     dependencies:
