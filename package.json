@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@lazarv/react-server": "0.0.0-experimental-3c4e6bc-20250119-0753e99e",
-    "react": "0.0.0-experimental-204a551e-20240926",
-    "react-dom": "0.0.0-experimental-204a551e-20240926"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.5",
