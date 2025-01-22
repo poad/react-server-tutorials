@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "react-server ./src/index.tsx",
     "build": "react-server build ./src/index.tsx",
-    "start": "react-server start"
+    "start": "react-server start",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix"
   },
   "keywords": [],
   "author": "",
