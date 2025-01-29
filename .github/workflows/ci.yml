@@ -54,4 +54,4 @@ jobs:
     - name: build
       env:
         CI: true
-      run: bun run build
+      run: pnpm build
