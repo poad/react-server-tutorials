@@ -32,9 +32,9 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "pnpm": "^10.7.1",
+    "pnpm": "^10.8.0",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.29.0"
+    "typescript-eslint": "^8.29.1"
   },
   "engines": {
     "node": ">=22.0.0"
