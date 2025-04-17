@@ -1097,8 +1097,8 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn-loose@8.4.0:
-    resolution: {integrity: sha512-M0EUka6rb+QC4l9Z3T0nJEzNOO7JcoJlYMrBlyBCiFSXRyxjLKayd4TbQs2FDRWQU1h9FR7QVNHt+PEaoNL5rQ==}
+  acorn-loose@8.5.0:
+    resolution: {integrity: sha512-ppga7pybjwX2HSJv5ayHe6QG4wmNS1RQ2wjBMFTVnOj0h8Rxsmtc6fnVzINqHSSRz23sTe9IL3UAt/PU9gc4FA==}
     engines: {node: '>=0.4.0'}
 
   acorn@8.14.1:
@@ -3148,7 +3148,7 @@ snapshots:
       '@types/react-dom': 18.3.6(@types/react@18.3.20)
       '@vitejs/plugin-react': 4.4.0(vite@6.0.0-alpha.18(@types/node@22.14.1)(sass@1.86.3)(terser@5.39.0))
       acorn: 8.14.1
-      acorn-loose: 8.4.0
+      acorn-loose: 8.5.0
       cac: 6.7.14
       chokidar: 3.6.0
       esbuild: 0.19.12
@@ -3665,7 +3665,7 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  acorn-loose@8.4.0:
+  acorn-loose@8.5.0:
     dependencies:
       acorn: 8.14.1
 
@@ -4940,7 +4940,7 @@ snapshots:
 
   react-server-dom-webpack@0.0.0-experimental-204a551e-20240926(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(webpack@5.97.1):
     dependencies:
-      acorn-loose: 8.4.0
+      acorn-loose: 8.5.0
       neo-async: 2.6.2
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
