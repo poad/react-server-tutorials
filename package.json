@@ -39,10 +39,5 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "pnpm": {
-    "overrides": {
-      "cookie": ">=0.7.0"
-    }
-  },
   "packageManager": "pnpm@10.9.0"
 }
