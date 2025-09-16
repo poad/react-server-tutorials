@@ -22,7 +22,7 @@
     "@stylistic/eslint-plugin-jsx": "^4.4.1",
     "@stylistic/eslint-plugin-plus": "^4.4.1",
     "@stylistic/eslint-plugin-ts": "^4.4.1",
-    "@types/node": "^24.4.0",
+    "@types/node": "^24.5.0",
     "eslint": "^9.35.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-flowtype": "^8.0.3",
@@ -34,7 +34,7 @@
     "globals": "^16.4.0",
     "pnpm": "^10.16.1",
     "typescript": "^5.9.2",
-    "typescript-eslint": "^8.43.0"
+    "typescript-eslint": "^8.44.0"
   },
   "engines": {
     "node": ">=22.0.0"
