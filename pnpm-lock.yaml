@@ -788,8 +788,8 @@ packages:
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react@18.3.24':
-    resolution: {integrity: sha512-0dLEBsA1kI3OezMBF8nSsb7Nk19ZnsyE1LLhB8r27KbgU5H4pvuqZLdtE+aUkJVoXgTVuA+iLIwmZ0TuK4tx6A==}
+  '@types/react@18.3.25':
+    resolution: {integrity: sha512-oSVZmGtDPmRZtVDqvdKUi/qgCsWp5IDY29wp8na8Bj4B3cc99hfNzvNhlMkVVxctkAOGUA3Km7MMpBHAnWfcIA==}
 
   '@typescript-eslint/eslint-plugin@8.45.0':
     resolution: {integrity: sha512-HC3y9CVuevvWCl/oyZuI47dOeDF9ztdMEfMH8/DW/Mhwa9cCLnK1oD7JoTVGW/u7kFzNZUKUoyJEqkaJh5y3Wg==}
@@ -1189,8 +1189,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001745:
-    resolution: {integrity: sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==}
+  caniuse-lite@1.0.30001746:
+    resolution: {integrity: sha512-eA7Ys/DGw+pnkWWSE/id29f2IcPHVoE8wxtvE5JdvD2V28VTDPy1yEeo11Guz0sJ4ZeGRcm3uaTcAqK1LXaphA==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -3028,8 +3028,8 @@ snapshots:
       '@hattip/headers': 0.0.34
       '@hattip/multipart': 0.0.34
       '@rollup/plugin-replace': 5.0.7(rollup@4.52.3)
-      '@types/react': 18.3.24
-      '@types/react-dom': 18.3.7(@types/react@18.3.24)
+      '@types/react': 18.3.25
+      '@types/react-dom': 18.3.7(@types/react@18.3.25)
       '@vitejs/plugin-react': 4.7.0(vite@6.0.0-alpha.18(@types/node@24.6.0)(sass@1.93.2)(terser@5.44.0))
       acorn: 8.15.0
       acorn-loose: 8.5.2
@@ -3320,11 +3320,11 @@ snapshots:
 
   '@types/prop-types@15.7.15': {}
 
-  '@types/react-dom@18.3.7(@types/react@18.3.24)':
+  '@types/react-dom@18.3.7(@types/react@18.3.25)':
     dependencies:
-      '@types/react': 18.3.24
+      '@types/react': 18.3.25
 
-  '@types/react@18.3.24':
+  '@types/react@18.3.25':
     dependencies:
       '@types/prop-types': 15.7.15
       csstype: 3.1.3
@@ -3729,7 +3729,7 @@ snapshots:
   browserslist@4.26.2:
     dependencies:
       baseline-browser-mapping: 2.8.9
-      caniuse-lite: 1.0.30001745
+      caniuse-lite: 1.0.30001746
       electron-to-chromium: 1.5.227
       node-releases: 2.0.21
       update-browserslist-db: 1.1.3(browserslist@4.26.2)
@@ -3766,7 +3766,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001745: {}
+  caniuse-lite@1.0.30001746: {}
 
   chalk@4.1.2:
     dependencies:
