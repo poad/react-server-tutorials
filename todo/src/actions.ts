@@ -1,23 +1,23 @@
-"use server";
+'use server';
 
-import { redirect } from "@lazarv/react-server";
-import * as zod from "zod";
+import { redirect } from '@lazarv/react-server';
+import * as zod from 'zod';
 import { v7 as uuidv7 } from 'uuid';
-import kv from "polystore";
+import kv from 'polystore';
 
-type Todo = {
+interface Todo {
   id: string;
   title: string;
-};
+}
 
 const storage = kv(new Map());
 
 const addTodoSchema = zod.object({
   title: zod
     .string()
-    .min(3, "Title must be at least 3 characters")
-    .max(100, "Title must be at most 100 characters")
-    .refine((value) => value.length > 0, "Title is required")
+    .min(3, 'Title must be at least 3 characters')
+    .max(100, 'Title must be at most 100 characters')
+    .refine((value) => value.length > 0, 'Title is required')
     .transform((value) => value.trim()),
 });
 
@@ -35,7 +35,7 @@ export async function addTodo(formData: FormData) {
   const { title } = result.data;
   const id = uuidv7();
   await storage.set(id, title);
-  redirect("/");
+  redirect('/');
 }
 
 export async function allTodos(): Promise<Todo[]> {
@@ -59,5 +59,5 @@ export async function deleteTodo(formData: FormData) {
 
   const { id } = result.data;
   storage.del(id);
-  redirect("/");
+  redirect('/');
 }

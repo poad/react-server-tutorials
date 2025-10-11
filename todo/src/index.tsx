@@ -1,9 +1,9 @@
-import "./index.css";
-import React from "react";
-import { allTodos } from "./actions";
-import AddTodo from "./AddTodo";
-import Item from "./Item";
-import Layout from "./Layout";
+import './index.css';
+import React from 'react';
+import { allTodos } from './actions.js';
+import AddTodo from './AddTodo.js';
+import Item from './Item.js';
+import Layout from './Layout.js';
 
 export default function Index() {
   const todos = React.use(allTodos());
