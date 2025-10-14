@@ -9,7 +9,7 @@
     "lint-fix": "pnpm -r --if-present lint-fix"
   },
   "dependencies": {
-    "@lazarv/react-server": "0.0.0-experimental-6ad4f93-20251006-6a6c6e76",
+    "@lazarv/react-server": "0.0.0-experimental-8195325-20240630-8028122a",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -28,9 +28,9 @@
     "eslint-plugin-react-hooks": "^7.0.0",
     "eslint-plugin-react-refresh": "^0.4.23",
     "globals": "^16.4.0",
-    "pnpm": "^10.18.2",
+    "pnpm": "^10.18.3",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.0"
+    "typescript-eslint": "^8.46.1"
   },
   "engines": {
     "node": ">=22.0.0"
