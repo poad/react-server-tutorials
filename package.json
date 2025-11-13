@@ -28,12 +28,12 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "pnpm": "^10.21.0",
+    "pnpm": "^10.22.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.4"
   },
   "engines": {
     "node": ">=22.0.0"
   },
-  "packageManager": "pnpm@10.21.0"
+  "packageManager": "pnpm@10.22.0"
 }
