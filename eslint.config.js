@@ -33,15 +33,29 @@ export default defineConfig(
   pluginPromise.configs['flat/recommended'],
   reactHooks.configs.flat.recommended,
   {
-    ...importPlugin.flatConfigs.recommended,
-    ...importPlugin.flatConfigs.typescript,
     extends: [
       js.configs.recommended,
+      importPlugin.flatConfigs.recommended,
+      importPlugin.flatConfigs.typescript,
     ],
     files: ['**/*.ts', '**/*.tsx'],
     languageOptions: {
-      ecmaVersion: 2020,
+      parser: tseslint.parser,
       globals: globals.browser,
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: __dirname,
+      },
+    },
+    settings: {
+      'import/resolver': {
+        // You will also need to install and configure the TypeScript resolver
+        // See also https://github.com/import-js/eslint-import-resolver-typescript#configuration
+        'typescript': true,
+        'node': true,
+      },
     },
     plugins: {
       '@stylistic': stylistic,
