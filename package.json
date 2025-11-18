@@ -9,9 +9,9 @@
     "lint-fix": "pnpm -r --if-present lint-fix"
   },
   "dependencies": {
-    "@lazarv/react-server": "0.0.0-experimental-8195325-20240630-8028122a",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "@lazarv/react-server": "0.0.0-experimental-600622d-20251109-6c5a6bee",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.0",
