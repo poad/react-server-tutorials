@@ -66,8 +66,8 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       pnpm:
-        specifier: ^10.26.0
-        version: 10.26.0
+        specifier: ^10.26.1
+        version: 10.26.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -2334,8 +2334,8 @@ packages:
     resolution: {integrity: sha512-ip4qdzjkAyDDZklUaZkcRFb2iA118H9SgRh8yzTkSQK8HilsOJF7rSY8HoW5+I0M46AZgX/pxbprf2vvzQCE0Q==}
     hasBin: true
 
-  pnpm@10.26.0:
-    resolution: {integrity: sha512-Oz9scl6+cSUGwKsa1BM8+GsfS2h+/85iqbOLTXLjlUJC5kMZD8UfoWQpScc19APevUT1yw7dZXq+Y6i2p+HkAg==}
+  pnpm@10.26.1:
+    resolution: {integrity: sha512-ZkB0q8Nn0skyT9wYA3CXzgqPEmA0Fg9wmSjp6fldmHFDRwROXDFk1lvV2mxZxr42KxB1Rikqjuy3mZGW5c5Y+g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5096,7 +5096,7 @@ snapshots:
       sonic-boom: 3.8.1
       thread-stream: 2.7.0
 
-  pnpm@10.26.0: {}
+  pnpm@10.26.1: {}
 
   polystore@0.16.1: {}
 
