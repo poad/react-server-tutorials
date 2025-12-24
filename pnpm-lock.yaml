@@ -66,8 +66,8 @@ importers:
         specifier: ^16.5.0
         version: 16.5.0
       pnpm:
-        specifier: ^10.26.1
-        version: 10.26.1
+        specifier: ^10.26.2
+        version: 10.26.2
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -2334,8 +2334,8 @@ packages:
     resolution: {integrity: sha512-ip4qdzjkAyDDZklUaZkcRFb2iA118H9SgRh8yzTkSQK8HilsOJF7rSY8HoW5+I0M46AZgX/pxbprf2vvzQCE0Q==}
     hasBin: true
 
-  pnpm@10.26.1:
-    resolution: {integrity: sha512-ZkB0q8Nn0skyT9wYA3CXzgqPEmA0Fg9wmSjp6fldmHFDRwROXDFk1lvV2mxZxr42KxB1Rikqjuy3mZGW5c5Y+g==}
+  pnpm@10.26.2:
+    resolution: {integrity: sha512-DjCP8gBfx0EDZvFU9iX2YxqysWsdLnAjhETdaunWMKhILZKkURRN68SSQWiW7Rb3sRSobsaLhASyRDhp5o/9pg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2766,8 +2766,8 @@ packages:
       terser:
         optional: true
 
-  watchpack@2.4.4:
-    resolution: {integrity: sha512-c5EGNOiyxxV5qmTtAB7rbiXxi1ooX1pQKMLX/MIabJjRA0SJBQOjKF+KSVfHkr9U1cADPon0mRiVe/riyaiDUA==}
+  watchpack@2.5.0:
+    resolution: {integrity: sha512-e6vZvY6xboSwLz2GD36c16+O/2Z6fKvIf4pOXptw2rY9MVwE/TXc6RGqxD3I3x0a28lwBY7DE+76uTPSsBrrCA==}
     engines: {node: '>=10.13.0'}
 
   webpack-sources@3.3.3:
@@ -5096,7 +5096,7 @@ snapshots:
       sonic-boom: 3.8.1
       thread-stream: 2.7.0
 
-  pnpm@10.26.1: {}
+  pnpm@10.26.2: {}
 
   polystore@0.16.1: {}
 
@@ -5583,7 +5583,7 @@ snapshots:
       sass: 1.97.1
       terser: 5.44.1
 
-  watchpack@2.4.4:
+  watchpack@2.5.0:
     dependencies:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
@@ -5613,7 +5613,7 @@ snapshots:
       schema-utils: 3.3.0
       tapable: 2.3.0
       terser-webpack-plugin: 5.3.16(webpack@5.97.1)
-      watchpack: 2.4.4
+      watchpack: 2.5.0
       webpack-sources: 3.3.3
     transitivePeerDependencies:
       - '@swc/core'
