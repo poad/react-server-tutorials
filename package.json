@@ -9,7 +9,7 @@
     "lint-fix": "pnpm -r --if-present lint-fix"
   },
   "dependencies": {
-    "@lazarv/react-server": "0.0.0-experimental-8195325-20240630-8028122a",
+    "@lazarv/react-server": "0.0.0-experimental-9900497-20251226-42112a97",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
