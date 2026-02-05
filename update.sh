@@ -14,7 +14,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-npx -y pnpm@latest self-update && pnpm install && pnpm up -r && pnpm audit --fix && pnpm up -r && pnpm lint-fix && pnpm build
+npx -y pnpm@latest self-update && pnpm add @lazarv/react-server@latest && pnpm install && pnpm up -r && pnpm audit --fix && pnpm up -r && pnpm lint-fix && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}" || exit $result
