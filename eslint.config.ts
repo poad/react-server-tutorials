@@ -1,14 +1,13 @@
-// @ts-check
-
 import { defineConfig } from 'eslint/config';
 import stylistic from '@stylistic/eslint-plugin';
 import js from '@eslint/js';
 import globals from 'globals';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
+  // @ts-expect-error ignore errors
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
 import importPlugin from 'eslint-plugin-import';
-import flowtypePlugin from 'eslint-plugin-flowtype';
+  // @ts-expect-error ignore errors
 import pluginPromise from 'eslint-plugin-promise'
 import tseslint from 'typescript-eslint';
 import { FlatCompat } from '@eslint/eslintrc';
@@ -29,7 +28,6 @@ export default defineConfig(
   js.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
-  // @ts-expect-error ignore errors
   pluginPromise.configs['flat/recommended'],
   reactHooks.configs.flat.recommended,
   {
@@ -61,7 +59,6 @@ export default defineConfig(
       '@stylistic': stylistic,
       'react-refresh': reactRefresh,
       'jsx-a11y': jsxA11yPlugin,
-      'flow-type': flowtypePlugin,
     },
     rules: {
       'react-refresh/only-export-components': [
