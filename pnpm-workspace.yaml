@@ -7,3 +7,4 @@ onlyBuiltDependencies:
 
 overrides:
   rollup@>=4.0.0 <4.59.0: '>=4.59.0'
+  serialize-javascript@<=7.0.2: '>=7.0.3'
